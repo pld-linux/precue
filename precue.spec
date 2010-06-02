@@ -1,11 +1,11 @@
 Summary:	This application is used as a web/mobile frontend to Lyricue
 Name:		precue
 Version:	1.9
-Release:	0.1
+Release:	0.2
 License:	GPL
 Group:		Applications/WWW
-Source0:	https://launchpad.net/~chris-debenham/+archive/lyricue/+files/%{name}_%{version}lucid.tar.gz
-# Source0-md5:	2365e75164ad8b76175c82734e326fee
+Source0:	http://www.lyricue.org/archive/%{name}_%{version}.tar.gz
+# Source0-md5:	bfe44c05ae11b02eed15ce27492aa398
 URL:		http://www.lyricue.org/precue/
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	webapps
