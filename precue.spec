@@ -1,11 +1,11 @@
 Summary:	This application is used as a web/mobile frontend to Lyricue
 Name:		precue
-Version:	1.9
-Release:	0.2
+Version:	1.10
+Release:	0.1
 License:	GPL
 Group:		Applications/WWW
 Source0:	http://www.lyricue.org/archive/%{name}_%{version}.tar.gz
-# Source0-md5:	bfe44c05ae11b02eed15ce27492aa398
+# Source0-md5:	2973e74c31f88c872c6adf1067c22ca1
 URL:		http://www.lyricue.org/precue/
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	webapps
@@ -62,7 +62,7 @@ install *.{php,js,css} $RPM_BUILD_ROOT%{_appdir}/
 install blank.html $RPM_BUILD_ROOT%{_appdir}/
 install images/*.{jpg,png,svg} $RPM_BUILD_ROOT%{_appdir}/images/
 install includes/*.inc $RPM_BUILD_ROOT%{_appdir}/includes/
-install includes/.htaccess $RPM_BUILD_ROOT%{_appdir}/includes/
+#install includes/.htaccess $RPM_BUILD_ROOT%{_appdir}/includes/
 
 ln -sf %{_sysconfdir}/config.inc $RPM_BUILD_ROOT%{_appdir}/includes/config.inc
 
